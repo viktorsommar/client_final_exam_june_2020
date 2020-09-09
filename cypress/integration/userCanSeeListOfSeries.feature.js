@@ -10,6 +10,15 @@ describe("User can see list of shows", () => {
   })
 
   it("on display with several titles", () => {
-    cy.get("[data-cy=image]").should("be.visible")
+    cy.get("#greys-anatomy").should("be.visible")
+    cy.get("#hawaii-five").should("be.visible")
+    cy.get("#partisan").should("be.visible")
+    cy.get("#seal-team").should("be.visible")
+    cy.get("#vampire-diaries").should("be.visible")
+    cy.get("#scrubs").should("be.visible")
+    cy.get("#the-office").should("be.visible")
+    cy.get("#svenska-fall").should("be.visible")
+    cy.get("#areakuten").should("be.visible")
+    cy.get("#american-dad").should("be.visible")
   })
 })
