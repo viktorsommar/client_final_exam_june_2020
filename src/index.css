@@ -28,3 +28,7 @@ code {
   width: 100%;
   height: auto;
 }
+
+#footer {
+  margin-bottom: -50px;
+}

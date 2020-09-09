@@ -2,7 +2,7 @@ import React from "react"
 import { Segment } from "semantic-ui-react"
 
 const Footer = () => (
-  <Segment inverted />
+  <Segment id="footer" inverted />
 )
 
 export default Footer;
