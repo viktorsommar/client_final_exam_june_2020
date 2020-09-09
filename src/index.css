@@ -29,6 +29,10 @@ code {
   height: auto;
 }
 
-/* #footer {
-  margin-bottom: -50px;
-} */
+#header img{
+  height: 40px;
+}
+
+#footer{
+  margin-bottom: -100px;
+}
